@@ -1,0 +1,29 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Bedrock Test Pack",
+		"description": "Created by MedicalJewel105 for Bedrock OSS.",
+		"uuid": "b69b536b-e435-4fc1-946b-24923e21e3c5",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			16,
+			100
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "8d012a4c-5431-4c25-8068-2282a0e8e140",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

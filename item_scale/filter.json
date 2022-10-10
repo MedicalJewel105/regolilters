@@ -1,0 +1,10 @@
+{
+    "description": "Generates render offsets for 1.16.100+ items with textures bigger than 16x16.",
+    "filters": [
+        {
+            "runWith": "python",
+            "script": "./item_scale.py",
+            "name": "Item scale"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "author": "MJ105",
+    "name": "item_scale_test",
+    "packs": {
+        "behaviorPack": "./packs/BP",
+        "resourcePack": "./packs/RP"
+    },
+    "regolith": {
+        "dataPath": "./packs/data",
+        "filterDefinitions": {
+            "item_scale": {
+                "runWith": "python",
+                "script": "../item_scale.py"
+            }
+        },
+        "profiles": {
+            "dev": {
+                "filters": [
+                    {
+                        "filter": "item_scale"
+                    }
+                ],
+                "export": {
+                    "readOnly": false,
+                    "target": "development"
+                }
+            }
+        }
+    }
+}

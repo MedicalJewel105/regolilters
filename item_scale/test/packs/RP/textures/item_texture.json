@@ -1,0 +1,21 @@
+{
+    "resource_pack_name": "Bedrock Test Pack",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "16x": {
+            "textures": "textures/items/16x"
+        },
+        "32x": {
+            "textures": "textures/items/32x"
+        },
+        "64x": {
+            "textures": "textures/items/64x"
+        },
+        "256x": {
+            "textures": "textures/items/256x"
+        },
+        "512x": {
+            "textures": "textures/items/512x"
+        }
+    }
+}

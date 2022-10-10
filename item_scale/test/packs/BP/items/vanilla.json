@@ -1,0 +1,25 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "category": "equipment",
+            "identifier": "wiki:vanilla"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "book_normal"
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.items"
+            },
+            "minecraft:display_name": {
+                "value": "vanilla"
+            },
+            "minecraft:allow_off_hand": true,
+            "minecraft:render_offsets": {
+                "scale": "regolith"
+            }
+        },
+        "events": {}
+    }
+}
