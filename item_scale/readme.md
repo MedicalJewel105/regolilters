@@ -7,11 +7,11 @@ Offsets generated:
 
 ## Why
 
-In 1.16.100 version and later items with icons more than 16x16 pixels started to render differently, that is why this filter was created. Please note that alculations are not idesl. 
+In 1.16.100 version and later items with icons more than 16x16 pixels started to render differently, that is why this filter was created. Please note that calculations are not ideal. 
 
 ## Using the Filter
 
-Simply add to your filter list, like this:
+Simply add it to your filter list, like this:
 
 ```json
 {
@@ -28,3 +28,5 @@ Don't forget to set `scale` value to `regolith`:
 ```
 
 This filter won't wipe your calculations if there are ones.
+
+Note that you might need to use json cleaner filter.

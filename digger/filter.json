@@ -1,0 +1,11 @@
+{
+    "description": "Simple filter that adds vanilla (and custom) blocks to your tools in 1.16.100+ version.",
+    "exportData": true,
+    "filters": [
+        {
+            "runWith": "python",
+            "script": "./digger.py",
+            "name": "Digger"
+        }
+    ]
+}
