@@ -2,7 +2,7 @@
     "format_version": "1.16.100",
     "minecraft:item": {
         "description": {
-            "identifier": "bs:silver_axe",
+            "identifier": "mj105:my_hoe",
             "category": "equipment"
         },
         "components": {
@@ -11,56 +11,39 @@
                 "max_durability": 125
             },
             "minecraft:icon": {
-                "texture": "silver_axe"
+                "texture": "my_hoe"
             },
             "minecraft:display_name": {
-                "value": "item.bs:silver_axe.name"
+                "value": "My hoe"
             },
             "minecraft:damage": 7,
             "minecraft:enchantable": {
-                "slot": "axe",
+                "slot": "hoe",
                 "value": 15
             },
             "minecraft:creative_category": {
-                "parent": "itemGroup.name.axe"
+                "parent": "itemGroup.name.hoe"
             },
             "minecraft:repairable": {
                 "repair_items": [
                     {
                         "repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability",
                         "items": [
-                            "bs:silver",
-                            "bs:silver_axe"
+                            "mj105:my_hoe"
                         ]
                     }
                 ]
             },
             "minecraft:render_offsets": "tools",
-            "tag:minecraft:is_axe": {},
             "minecraft:digger": {
                 "digger_filter": {
-                    "tool_type": "axe",
-                    "blacklisted": [
-                        "block1",
-                        "block2",
-                        "block3"
-                    ],
+                    "tool_type": "hoe",
+                    "blacklisted": [],
                     "speed": 8,
                     "event": "damage_item",
                     "use_custom_blocks": false
                 },
                 "use_efficiency": true,
-                "destroy_speeds": [
-                    {
-                        "block": {
-                            "tags": "q.any_tag('wood')"
-                        },
-                        "speed": 8,
-                        "on_dig": {
-                            "event": "damage_item"
-                        }
-                    }
-                ],
                 "on_dig": {
                     "event": "damage_item"
                 }
@@ -72,24 +55,6 @@
             }
         },
         "events": {
-            "on_tool_used": {
-                "sequence": [
-                    {
-                        "damage": {
-                            "type": "durability",
-                            "amount": 1,
-                            "target": "self"
-                        }
-                    },
-                    {
-                        "run_command": {
-                            "command": [
-                                "playsound hit.wood @a ~~~"
-                            ]
-                        }
-                    }
-                ]
-            },
             "damage_item": {
                 "damage": {
                     "type": "durability",

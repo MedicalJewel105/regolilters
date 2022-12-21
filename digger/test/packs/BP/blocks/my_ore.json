@@ -1,0 +1,27 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "mj105:my_ore"
+        },
+        "components": {
+            //Basic components
+            "minecraft:creative_category": {
+                "category": "nature",
+                "group": "itemGroup.name.ore"
+            },
+            "minecraft:display_name": "My ore",
+            "minecraft:destroy_time": 10,
+            "minecraft:block_light_absorption": 15,
+            "minecraft:explosion_resistance": 3,
+            "minecraft:unit_cube": {},
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "my_ore",
+                    "render_method": "opaque"
+                }
+            }
+        },
+        "events": {}
+    }
+}

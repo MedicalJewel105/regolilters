@@ -17,6 +17,8 @@ In 1.16.100 version `minecraft:digger` component appeared so now add-on develope
 
 ## Using the Filter
 
+Installation: `regolith install digger`
+
 Simply add it to your filter list, like this:
 
 ```json
@@ -51,10 +53,10 @@ Add this to your item:
 }
 ```
 
-Note that you might need to use [json cleaner](#LINK) filter.
+Note that you might need to use [json cleaner](https://github.com/Bedrock-OSS/regolith-filters/tree/master/json_cleaner) filter.
 
 ## How it works
 
 Script sorts blocks to categories by their names (there are some default blacklist values which you can overwrite) and uses provided data to generate values when going through vanilla/custom blocks.json file.
-Sounds are already sorted by developer, you can view them [here](#LINK).
+Sounds are already sorted by developer, you can view them [here](https://github.com/MedicalJewel105/bedrock-tools-creator/blob/main/data/sounds_data.json).
 Please, make sure to include namespace into blocks.json!

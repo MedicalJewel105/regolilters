@@ -2,7 +2,7 @@
     "format_version": "1.16.100",
     "minecraft:item": {
         "description": {
-            "identifier": "bs:silver_axe",
+            "identifier": "mj105:my_axe",
             "category": "equipment"
         },
         "components": {
@@ -11,10 +11,10 @@
                 "max_durability": 125
             },
             "minecraft:icon": {
-                "texture": "silver_axe"
+                "texture": "my_axe"
             },
             "minecraft:display_name": {
-                "value": "item.bs:silver_axe.name"
+                "value": "My axe"
             },
             "minecraft:damage": 7,
             "minecraft:enchantable": {
@@ -29,8 +29,7 @@
                     {
                         "repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability",
                         "items": [
-                            "bs:silver",
-                            "bs:silver_axe"
+                            "mj105:my_axe"
                         ]
                     }
                 ]
@@ -40,11 +39,7 @@
             "minecraft:digger": {
                 "digger_filter": {
                     "tool_type": "axe",
-                    "blacklisted": [
-                        "block1",
-                        "block2",
-                        "block3"
-                    ],
+                    "blacklisted": [],
                     "speed": 8,
                     "event": "damage_item",
                     "use_custom_blocks": false

@@ -1,0 +1,29 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Digger Test Pack",
+        "description": "Created by MedicalJewel105 for Bedrock OSS.",
+        "uuid": "930af3a0-8b01-4524-92fa-3ee8bf15cdc9",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            16,
+            100
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "6d45feea-79f6-4efe-8dc7-dd970aaa921c",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}

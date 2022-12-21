@@ -17,3 +17,9 @@ Put the following code in your item's components:
 ```
 
 Installation: `regolith install item_scale`
+
+## Digger 1.0.0
+
+Simple filter that adds vanilla (and custom) blocks to your tools in 1.16.100+ version.
+
+Installation: `regolith install github.com/MedicalJewel105/regolilters/digger`

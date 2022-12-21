@@ -1,0 +1,18 @@
+{
+    "resource_pack_name": "Bedrock Test Pack",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "my_axe": {
+            "textures": "textures/items/my_axe"
+        },
+        "my_pickaxe": {
+            "textures": "textures/items/my_pickaxe"
+        },
+        "my_hoe": {
+            "textures": "textures/items/my_hoe"
+        },
+        "my_shovel": {
+            "textures": "textures/items/my_shovel"
+        }
+    }
+}
